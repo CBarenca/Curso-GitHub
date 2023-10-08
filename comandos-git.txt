@@ -1,0 +1,18 @@
+
+#Definimos nuetro correo, nombre de usuario y contraseña de GitHub
+
+	git config --global user.email "" -> Añadimos nustro correo de usuario de Github.
+	git config --global user.name "" -> Añadimos nuestro nombre de usuario de Github.
+	git config --global user.password "" -> Añadimos nuestra contraseña de usuario de Github.
+	git config --global -e -> Visualizamos la información anterior en editor de codigo.
+	git config --global -l -> Visualizamos la información anterior en consola.
+
+#Utilidades
+
+	touch <archivo.cualquiera> -> Permite crear archivos con cualquier tipo de extensión.
+	git init -> Inicializa un repositorio en nustra computadora de manera local.
+	ctrl + l -> Tiene la misma funcionalidad que el comando clear.
+	git add <archivo.cualquiera> -> Permite agregar un archivo al repositorio local.
+	git add . -> Agrega todos los archivos al repositorio local.
+	git commit -m "mensaje ..." -> Empaquetamos los archivos para subirlos a nuestro repositorio en la nube.
+	git diff -> Visualizamos las diferencias de las versiones de los archivos despues de un commit.
