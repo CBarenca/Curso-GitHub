@@ -22,12 +22,15 @@
 	git reset HEAD <nombre.archivo> -> Eliminamos el archivo de la lista de añadidos para commit.
 	git checkout . -> "Desase el commit anterior".
 	git log -> Muestra el historial de commit por usuario.
-	git checkout <ff912b5971cc25a77b3bea7b4553b3a34a60ee03> (id.commit) -> Regresa todo el proyecto a la version que necesitas
-	git remote add origin <link del repositorio de GitHub> -> Sincronizamos los cambios entre el repositorio local y el repositorio en la nube
-	git push -u origin master -> Empujamos los cambios a la rama master
+	git checkout <ff912b5971cc25a77b3bea7b4553b3a34a60ee03> (id.commit) -> Regresa todo el proyecto a la version que necesitas.
+	git remote add <alias para enlazar el repo> <link del repositorio de GitHub> -> Sincronizamos los cambios entre el repositorio local y el repositorio en la nube.
+	git push -u <alias para enlazar el repo> <rama de destino> -> Empujamos los cambios a la rama de destino.
+	git push -f <alias para enlazar el repo> <rama de destino> -> Forzamos los cambios a la rama de destino.
 
 #Branchs
 
-	git branch <Nombre de la rama> -> Crea una rama
-	git branch -> Muestra la rama actual
-	git checkout <Nombre de la rama> -> Cambio de la rama
+	git branch <Nombre de la rama> -> Crea una rama.
+	git branch -> Muestra la rama actual.
+	git checkout <Nombre de la rama> -> Cambio a la rama que deseamos.
+	git merge <brach> -> Une cambios temporales con la rama que pasemos como parametro.
+	git branch -d <branch> -> elimina la rama creada.
