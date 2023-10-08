@@ -1,6 +1,4 @@
 <?php
-
 	echo "Solucionando conflictos";
-
 
 ?>
